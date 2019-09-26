@@ -1,0 +1,2 @@
+/path/to/some/dir
+/path/to/another/dir
