@@ -4,6 +4,6 @@ Instruction for setup:
 1. Create new folder for archive files: mkdir /path/to/archive
 2. Run: sudo chown user:user /path/to/archive if there is problem with permissions
 3. Store the shell script and the text file to some dir
-4. Run: sudo nano /etc/crontab and add line  0 0 * * * mipro  run-parts /path/to/shell/script/
+4. Run: sudo nano /etc/crontab and add line  0 0 * * * user  run-parts /path/to/shell/script/
     = Cronjob will run every day at midnight
 5. Restart cron service: sudo systemctl restart crond.service
